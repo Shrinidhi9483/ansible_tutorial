@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+  - name: install go package
+    yum:
+      name: go
