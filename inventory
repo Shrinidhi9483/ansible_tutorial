@@ -1,1 +1,7 @@
+# Inventory file used by ansible to connect to hosts. 
+# Specify the hosts IP address or FQDN (Fully Qualified Domain Name) below.
 192.168.64.3
+
+[all:vars]
+# Specifies the username required for SSH connection
+ansible_user = dev-user
